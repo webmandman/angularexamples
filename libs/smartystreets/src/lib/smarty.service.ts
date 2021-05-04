@@ -5,7 +5,7 @@ import { SmartyResponse, Address } from '@examples/types';
 
 export const smartyConfig = {
   url : 'https://us-street.api.smartystreets.com/street-address',
-  key : '48629215218415743'
+  key : '99911215218918272635'
 };
 
 @Injectable({
