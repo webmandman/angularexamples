@@ -105,7 +105,7 @@ Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
 
 Run `npx create-nx-workspace@latest` to scaffold the nx workspace. Follow the prompts.
 
-1. Workspace name is for example the organization name, ie: `psomas` or the global namepspace of the environment, ie: `examples`.
+1. Workspace name is for example the organization name, ie: `myorg` or the global namepspace of the environment, ie: `examples`.
 2. What to create in the new workspace? Framework of the first application.
 3. Application name? Name of the first application.
 4. and so on...
