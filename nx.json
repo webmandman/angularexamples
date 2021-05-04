@@ -1,0 +1,28 @@
+{
+  "implicitDependencies": {
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    ".eslintrc.json": "*"
+  },
+  "affected": { "defaultBase": "master" },
+  "npmScope": "examples",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+    }
+  },
+  "projects": {
+    "rxjspipelines": { "tags": [] },
+    "rxjspipelines-e2e": {
+      "tags": [],
+      "implicitDependencies": ["rxjspipelines"]
+    },
+    "types": { "tags": [] },
+    "smartystreets": { "tags": [] },
+    "ui": { "tags": [] },
+    "my-test-lib": { "tags": [] },
+    "my-test-lib2": { "tags": [] },
+    "testapp": { "tags": [] },
+    "testapp-e2e": { "tags": [], "implicitDependencies": ["testapp"] }
+  }
+}

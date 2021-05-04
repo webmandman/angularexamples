@@ -1,0 +1,46 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppComponent } from './app.component';
+import { RoutingModule } from './routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { VerifyAddressComponent } from './verify-address/verify-address.component';
+import { SmartystreetsModule } from '@examples/smartystreets';
+
+@NgModule({
+  declarations: [AppComponent,VerifyAddressComponent],
+  imports: [
+    BrowserModule,
+    RoutingModule,
+    BrowserAnimationsModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatInputModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatFormFieldModule,
+    MatCardModule,
+    ReactiveFormsModule,
+    FormsModule,
+    SmartystreetsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
